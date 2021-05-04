@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+* {
+        box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'open Sans', sans-serif;
+    font-weight: 400;
+    
+}
+
+#hamnav {
+   width: 100%;
+   background:linear-gradient(20deg,rgb(24, 1, 47),rebeccapurple);
+   position: sticky;
+   top: 0;
+   padding-right: 20px;
+}
+#hamnav label, #hamburger {display: none; }
+#hamitems{ 
+    display: flex;
+    justify-content: flex-end;
+}
+#hamitems a {
+    width: fit-content;
+    padding: 6px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 1rem;
+    margin: .5rem;
+}
+#hamitems a:hover {
+ background: #f6f9fc ;
+ color:  black;
+}
+@media screen and (max-width:768px) {
+    #hamnav label{
+     display: flex;
+     justify-content: flex-end;
+     color: #fff;
+     background: transparent;
+     font-size: 1.5rem;
+     font-weight: bold;
+     padding: 5px 20px 5px 10px;
+    } 
+    #hamitems a {
+     box-sizing: border-box;
+     display: block;
+     width: 100%;
+       }
+    #hamitems a:hover {
+     text-decoration: underline;
+     background-color: transparent;
+     color: #7fff00;
+       }
+   #hamitems{
+    display: none;
+     }
+    #hamnav input:checked ~ #hamitems { display:block;}
+    }
+
+
+main{
+    background-color: rgb(253, 251, 251);
+    padding-top: 20px;
+    text-align: center; 
+}
+
+.place{
+    top: 2rem;
+    right: 5rem;
+    width: 5rem;
+    height: 4rem;
+}
+
+
+#justipy{
+        top: 2rem;
+        right: 10rem;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 80px;
+}
+ .button1{
+    padding: 0.5rem 1rem;
+    border: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 100px;
+    margin: 1rem;
+    height: 3rem;
+    background-color: #fff;
+    box-shadow: 1px 1px 1.5px 1.5px rgba(46, 45, 45, 0.37);
+}
+
+.button2{
+    padding: 0.5rem 1rem;
+    border: 3rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 100px;
+    margin: 1rem;
+    height: 3rem;
+    background-color: #fff;
+    box-shadow: 1px 1px 1.5px 1.5px rgba(46, 45, 45, 0.37);
+}
+button:hover{
+    background-image: linear-gradient(40deg,rgb(24, 1, 47),rebeccapurple);
+    color: #fff;
+}
+
+footer{
+    background-image: linear-gradient(20deg,rgb(24, 1, 47),rebeccapurple);
+    color: rgb(255, 255, 255);
+    width: 100%;
+   font-size: 0.5rem; 
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1rem;
+    align-items: center;
+  
+}
