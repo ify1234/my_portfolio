@@ -8,13 +8,6 @@ body{
     font-family: 'open Sans', sans-serif;
     font-weight: 400;
 }
-.container{
-    position: relative;
-    min-height: 150vh;
-}
-#content-wrap{
-    padding-bottom: 10rem;
-}
 #hamnav {
    width: 100%;
    background:linear-gradient(20deg,rgb(24, 1, 47),rebeccapurple);
@@ -121,8 +114,7 @@ footer{
     color: rgb(255, 255, 255);
     width: 100%;
    font-size: 0.6rem; 
-    height: 30rem;
-    position: absolute;
+    position: relative;
     bottom: 0;
     display: flex;
     justify-content: center;
@@ -183,4 +175,11 @@ label{
 }
 #phone{
     padding-top: 2rem;
+}
+#section1{
+    height: 100vh;
+}
+.main{
+    height: 100vh;
+    background-color: #f6f9fc;
 }
