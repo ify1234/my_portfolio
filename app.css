@@ -10,7 +10,7 @@ body{
 }
 .container{
     position: relative;
-    min-height: 100vh;
+    min-height: 150vh;
 }
 #content-wrap{
     padding-bottom: 10rem;
@@ -121,15 +121,14 @@ footer{
     color: rgb(255, 255, 255);
     width: 100%;
    font-size: 0.6rem; 
-    height: 10rem;
+    height: 30rem;
     position: absolute;
     bottom: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 2.5rem;
-    align-items: center;
-  
 }
 
 #copyright, .header4{
@@ -146,4 +145,39 @@ footer{
 a{
     text-decoration: none;
     color: #fff;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  margin-top: 0.8rem;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: #f9f6fc;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+
+}
+input[type=submit]:hover {
+  background-color: rebeccapurple;
+}
+
+.container1 {
+  border-radius: 0.25rem;
+  padding: 0.018rem;
+  width: 20rem;
+  margin: 1rem; 
+}
+#contactme{
+    padding-top: 1rem;
+}
+label{
+    display: flex;
+    margin: 0.2rem 0;
 }
