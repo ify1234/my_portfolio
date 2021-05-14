@@ -13,6 +13,7 @@ body{
    background:linear-gradient(20deg,rgb(24, 1, 47),rebeccapurple);
    position: sticky;
    top: 0;
+   height: 6vh;
    padding-right: 20px;
 }
 #hamnav label, #hamburger {display: none; }
@@ -80,6 +81,9 @@ main{
         width: 10rem;
         height: 10rem;
         border-radius: 80px;
+        align-self: center;
+        margin: 2rem;
+       
 }
  .button1{
     padding: 0.5rem 1rem;
@@ -178,8 +182,27 @@ label{
 }
 #section1{
     height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #f6f9fc;
 }
 .main{
-    height: 100vh;
-    background-color: #f6f9fc;
+    height: calc(100vh - 6vh);
+    
+}
+.arrow{
+  position: relative;
+  bottom: -3rem;
+  font-size: 1.2rem;
+}
+.myname{
+    font-size: 1rem;
+}
+#tag{ 
+    font-size: 4rem;
+    
 }
