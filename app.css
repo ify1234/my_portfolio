@@ -121,12 +121,26 @@ footer{
     position: relative;
     bottom: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 2.5rem;
 }
-
+@media screen and (min-width:768px) {
+.connect{
+    align-self: flex-end;
+    position: relative;
+    bottom: 2rem;
+    right: 8rem;
+}
+.container1{
+    align-self: flex-start;
+     position: relative;
+    top: 5rem;
+    left: 8rem;
+}
+}
 #copyright, .header4{
     margin: 0.3rem;
     display: flex;
