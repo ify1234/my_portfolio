@@ -190,12 +190,12 @@ body{
     border-radius: 5px;
    z-index: 1000;
     font-family: sans-serif;
-    background-color: rgb(255, 0, 179);
+    background-color: #75BF40;
     color: black;
-    box-shadow: 1px 1px 1.5px 1.5px rgba(46, 45, 45, 0.37);
+    box-shadow: 1px 1px 1.5px 1.5px rgba(46, 45, 45, 0.1);
 }
 button:hover{
-    background-color: rgb(255, 0, 179, 0.7);
+    background-color: rebeccapurple;;
 }
 .button1{
     position: fixed;
@@ -250,7 +250,7 @@ input[type=text], select, textarea {
   margin-top: 0.8rem;
 }
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #75BF40;
   color: #f9f6fc;
   padding: 0.5rem 1rem;
   border: none;
