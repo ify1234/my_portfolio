@@ -170,24 +170,13 @@ body{
         margin: 2rem;
        
 }
- /* .button1{
-    padding: 0.5rem 1rem;
-    border: 1rem;
-    cursor: pointer;
-    font-size: 1rem;
-    border-radius: 50px;
-    margin: 1rem;
-    height: 3rem;
-    background-color: #fff;
-    box-shadow: 1px 1px 1.5px 1.5px rgba(46, 45, 45, 0.37);
-} */
 
 .button2, .button1{
     padding: 0.5rem 0.5rem;
     border: 1.4rem;
     cursor: pointer;
     font-size: .9rem;
-    border-radius: 5px;
+    border-radius: 8px 3px 8px 3px;
    z-index: 1000;
     font-family: sans-serif;
     background-color: #75BF40;
@@ -207,9 +196,7 @@ button:hover{
     position: fixed;
     bottom: 3vh;
     left: 10px;
-    /* height: 11rem; */
     text-transform: uppercase;
-    writing-mode: vertical-rl;
 }
 footer{
     background-image: linear-gradient(20deg,rgb(24, 1, 47),rebeccapurple);
@@ -295,7 +282,7 @@ label{
 } 
  .arrow{
   position: relative;
-  bottom: -3rem;
+  bottom: -14vh;
   font-size: 1.2rem;
 }
 .myname{
