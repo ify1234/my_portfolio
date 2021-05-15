@@ -1,3 +1,60 @@
+$(document).ready(function(){
+  $('#nav-icon1').click(function(){
+    $(this).toggleClass('open');
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // let gradeScore = 91;
 // if (gradeScore >= 80 ){
 // console.log("excellent");
