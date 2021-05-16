@@ -18,7 +18,7 @@ body{
   font-size: 1.2rem;
 }
 #section1{
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -63,18 +63,7 @@ body{
     #nav-icon1{
         display: none;
     }
-    .connect{
-    align-self: flex-end;
-    position: relative;
-    bottom: 2vh;
-    right: 6vh;
-}
-   .container1{
-    align-self: flex-start;
-     position: relative;
-    top: 5vh;
-    left: 6vh;
-}
+    
 }
    
 #menu__toggle {
@@ -173,9 +162,6 @@ body{
     height: 4rem;
 }
 
-
-
-
 .button2, .button1{
     padding: 0.5rem 0.5rem;
     border: 1.4rem;
@@ -215,7 +201,7 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2.5rem;
+    padding: 0,2.5rem;
 }
 
 #copyright, .header4{
@@ -262,7 +248,7 @@ input[type=submit]:hover {
   margin: 1rem; 
 }
 #contactme{
-    padding-top: 1rem;
+    padding-top: 0rem;
 }
 label{
     display: flex;
@@ -273,12 +259,11 @@ label{
 }
 
  .main{
-    height: calc(100vh - 6vh);
+    height: 70vh;
     
 } 
  
-
 #copying{
     position: relative;
-    bottom: -2rem;
+    bottom: 0rem;
 } 
