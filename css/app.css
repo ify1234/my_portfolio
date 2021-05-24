@@ -163,6 +163,16 @@ img{
    transform:translateX(25px)
   }
 }
+@keyframes FadeInTop{
+  0%{
+    opacity:0;
+    transform:translateY(-25px)
+  }
+  100%{
+    opacity:1;
+    transform:translateY(0px)
+  }
+}
 .section-title{
   padding: 0 15px;
   flex: 0 0 100%;
@@ -422,10 +432,11 @@ img{
 .about-section .about-info{
    flex: 0 0 60%;
    max-width: 60%;
+   word-spacing: 0.5rem;
    padding: 0 15px;
 }
 .about-section .about-info p{
-   font-size:1.2rem;
+   font-size:1.1rem;
   line-height: 26px;
   margin-bottom: 15px;
   color:var(--primary-color-5);
@@ -489,6 +500,11 @@ img{
 .about-section .tab-content{
   max-width: 100%;
   flex: 0 0 100%;
+  display: none;
+}
+.about-section .tab-content.active{
+  display:block;
+  animation: fadeInTop 0.5s ease;
 }
  .about-section .skills {
 padding: 0 0 40px;
@@ -497,10 +513,12 @@ padding: 0 0 40px;
 flex: 0 0 50%;
 max-width: 50%;
 padding: 0 15px;
+margin-bottom: 20px;
 }
 .about-section .skills .skill-item p{
   font-size: 0.8rem;
   color: var(--primary-color-5);
+  margin: 0 0 10px;
 }
 
 .about-section .skills .skill-item .progress{
@@ -512,7 +530,7 @@ padding: 0 15px;
 }
 .about-section .skills .skill-item .progress .progress-bar{
   background-color: var(--primary-color-5);
-  height: 4.5px;
+  height: 6px;
   left:7px;
   top:7px;
   border-radius: 10px;
@@ -523,7 +541,9 @@ padding: 0 15px;
   right: 0;
   top: 0;
   font-size: 1rem;
+  font-weight: 500;
   color: var(--primary-color-7);
+  margin: -40px;
 }
 .about-section .experience{
   padding-bottom: 80px;
@@ -534,11 +554,11 @@ padding: 0 15px;
   max-width: 100%;
   position: relative  ;
 }
-.about-section .timeline-item{
+.about-section .timeline .timeline-item{
   flex: 0 0 100%;
   max-width: 100%;
 }
-.timeline::before{
+.timeline:before{
   content:'';
   width: 1px;
   left: 50%;
@@ -567,7 +587,7 @@ padding: 0 15px;
 .timeline-item:nth-child(even) .timeline-item-inner:before{
   left: -30px;
 }
-.about-section .timeline-item{
+.about-section .timeline .timeline-item{
   flex:0 0 100%;
   max-width: 100%;
 
